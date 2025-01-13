@@ -14,5 +14,5 @@ func main() {
 
 	flag.Parse()
 
-	fmt.Println(string2color.Convert(input))
+	fmt.Printf("%.2f\n", string2color.Convert(input))
 }
