@@ -13,7 +13,9 @@ func Test_Interpolate(t *testing.T) {
 		out    uint
 		outMin uint
 	}{
-		{"midpoint", 5, 50, 0, 10, 0, 100},
+		{
+			name: "basic midpoint",
+		},
 	}
 
 	for _, tc := range tcs {

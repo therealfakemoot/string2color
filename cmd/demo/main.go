@@ -16,4 +16,5 @@ func main() {
 
 	// fmt.Printf("%#+v\n", string2color.ToRGB(input))
 	fmt.Printf("%s\n", string2color.ToRGB(input))
+	fmt.Printf("%s\n", string2color.ToRGBA(input))
 }
