@@ -21,6 +21,7 @@ func ToRGB(s string) color.RGBA {
 	rgb.R = uint8(InterpolateUint64(r, 0, uint64(math.Pow(2, 56)), 0, 64384))
 	rgb.G = uint8(InterpolateUint64(g, 0, uint64(math.Pow(2, 56)), 0, 64384))
 	rgb.B = uint8(InterpolateUint64(b, 0, uint64(math.Pow(2, 56)), 0, 64384))
+	rgb.A = uint8(255)
 
 	return rgb
 }
